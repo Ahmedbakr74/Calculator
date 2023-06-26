@@ -1,0 +1,89 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+body {
+  position: relative;
+  background-image: url(./image/14731285_rm209-ning-20.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+form {
+  overflow: hidden;
+  border: 2px solid #c5080d;
+  border-radius: 20px;
+}
+form .numbers {
+  background-color: #fff;
+  text-align: center;
+  padding: 20px 10px;
+}
+.btn {
+  background-color: #ecedef;
+  color: #4c494a;
+  border-radius: 25px;
+  width: 70px;
+  height: 70px;
+  border: none;
+  margin: 5px;
+  font-size: 30px;
+  font-weight: bold;
+  transition: 0.3s;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+}
+@media (max-width: 767px) {
+  form {
+    width: 80%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .btn {
+    width: 40px;
+    height: 65px;
+    margin: 5px 0;
+  }
+  form .numbers {
+    padding: 20px 5px;
+  }
+}
+#info {
+  font-size: 20px;
+}
+.screen {
+  width: 450px;
+  height: 120px;
+  font-size: 40px;
+  border: none;
+  outline: none;
+  background-color: #ff060a;
+  padding: 20px;
+  font-weight: bold;
+}
+#equl,
+#num10 {
+  background-color: #c5080d;
+  color: white;
+}
+#equl:active,
+#num10:active {
+  opacity: 0.7;
+}
+
+@media (max-width: 992px) {
+  .screen {
+    width: 100%;
+  }
+}

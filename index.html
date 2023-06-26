@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Calculator</title>
+    <link rel="Icon" href="./image/calculator2.icon">
+</head>
+<body>
+    <form action="#">
+        <input class="screen" type="text" id="text" > <br>
+        <!-- <input class="screen" type="text" id="text1" readonly value=""><br> <br> -->
+        <div class="numbers">
+            <input class="btn " type="button" value="1" id="num1" onclick="click1()">
+            <input class="btn " type="button" value="2" id="num2" onclick="click2()">
+            <input class="btn " type="button" value="3" id="num3" onclick="click3()">
+            <input class="btn " type="button" value="+" id="sum" onclick="clicks()">
+            <input class="btn " type="button" value="/" id="division" onclick="clickdivison()"> <br>
+            <input class="btn " type="button" value="4" id="num4" onclick="click4()">
+            <input class="btn" type="button" value="5" id="num5" onclick="click5()">
+            <input class="btn" type="button" value="6" id="num6" onclick="click6()">
+            <input class="btn" type="button" value="-" id="mins" onclick="clickm()">
+            <button class="btn" value="**" id="ous" onclick="clickous()"> ^ </button> <br>
+            <input class="btn" type="button" value="7" id="num7" onclick="click7()">
+            <input class="btn" type="button" value="8" id="num8" onclick="click8()">
+            <input class="btn" type="button" value="9" id="num9" onclick="click9()">
+            <button class="btn" value="*" id="num*" onclick="clickX()">*</button>
+            <button class="btn " id="info" onclick="clickinfo()">Info</button>  <br>
+            <input class="btn " type="button" value="C" id="num10" onclick="clickc()">
+            <input class="btn " type="button" value="0" id="num0" onclick="click0()">
+            <input class="btn" type="button" value="%" id="precent" onclick="clickprec()">
+            <input class="btn " type="button" value="." id="dot" onclick="clickdot()">
+            <input class="btn " type="button" value="=" id="equl" onclick="clickeq()">
+        </div>
+
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
